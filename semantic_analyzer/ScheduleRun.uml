@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.upf.nli.analyzer.semantic_analyzer.ScheduleRun</OriginalElement>
+  <nodes>
+    <node x="0.0" y="202.0">com.upf.nli.analyzer.semantic_analyzer.service.InputBufferServiceImpl</node>
+    <node x="384.0" y="304.0">com.upf.nli.analyzer.semantic_analyzer.ScheduleRun</node>
+    <node x="169.0" y="272.0">com.upf.nli.analyzer.semantic_analyzer.service.InputBufferService</node>
+    <node x="640.0" y="164.0">com.upf.nli.analyzer.semantic_analyzer.service.OutputServiceImpl</node>
+    <node x="267.0" y="143.0">com.upf.nli.analyzer.semantic_analyzer.service.AnswerService</node>
+    <node x="465.0" y="0.0">com.upf.nli.analyzer.semantic_analyzer.service.ErrorServiceImpl</node>
+    <node x="447.0" y="138.0">com.upf.nli.analyzer.semantic_analyzer.service.ErrorService</node>
+    <node x="206.0" y="9.0">com.upf.nli.analyzer.semantic_analyzer.service.AnswerServiceImpl</node>
+    <node x="134.0" y="480.0">com.upf.nli.analyzer.semantic_analyzer.service.FrameServiceImpl</node>
+    <node x="255.0" y="382.0">com.upf.nli.analyzer.semantic_analyzer.service.FrameService</node>
+    <node x="506.0" y="234.0">com.upf.nli.analyzer.semantic_analyzer.service.OutputService</node>
+    <node x="594.0" y="457.0">com.upf.nli.analyzer.semantic_analyzer.service.QueryServiceImpl</node>
+    <node x="487.0" y="381.0">com.upf.nli.analyzer.semantic_analyzer.service.QueryService</node>
+    <node x="365.0" y="452.0">com.upf.nli.analyzer.semantic_analyzer.service.TemplateService</node>
+    <node x="362.0" y="591.0">com.upf.nli.analyzer.semantic_analyzer.service.TemplateServiceImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.QueryServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.QueryService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.QueryService">
+      <point x="-8.533774534698821" y="0.0" />
+      <point x="-8.533774534698807" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.TemplateService">
+      <point x="-5.002852546414772" y="0.0" />
+      <point x="-5.002852546414765" y="2.8421709430404007E-14" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.AnswerService">
+      <point x="6.055582090683274" y="0.0" />
+      <point x="6.0555820906832665" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.InputBufferService">
+      <point x="-0.7454613537222485" y="4.437824621377757" />
+      <point x="-0.7454613537222485" y="4.43782462137775" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.AnswerServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.AnswerService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.FrameService">
+      <point x="2.639340778123241" y="4.246631636595737" />
+      <point x="2.6393407781232483" y="4.246631636595737" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.ErrorServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.ErrorService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.OutputServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.OutputService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.OutputService">
+      <point x="10.483466088297789" y="0.0" />
+      <point x="10.483466088297803" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.InputBufferServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.InputBufferService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.ScheduleRun" target="com.upf.nli.analyzer.semantic_analyzer.service.ErrorService">
+      <point x="-4.64141867855971" y="-1.8593635067724108" />
+      <point x="-4.641418678559717" y="-1.8593635067724108" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.FrameServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.FrameService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.upf.nli.analyzer.semantic_analyzer.service.TemplateServiceImpl" target="com.upf.nli.analyzer.semantic_analyzer.service.TemplateService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.9" x="1142.2222222222222" y="241.22222222222223" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

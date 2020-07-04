@@ -1,0 +1,208 @@
+@startuml
+
+title __DOMAIN's Class Diagram__\n
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Attribute {
+            - keyword : String
+            - name : String
+            + getKeyword()
+            + getName()
+            + setKeyword()
+            + setName()
+            + toString()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Error {
+            - id : int
+            - keyword : String
+            - sentence : String
+            + getAttribute()
+            + getFrame()
+            + getId()
+            + getKeyword()
+            + getSentence()
+            + setAttribute()
+            + setFrame()
+            + setId()
+            + setKeyword()
+            + setSentence()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Frame {
+            - keyword : String
+            - name : String
+            + equals()
+            + getKeyword()
+            + getName()
+            + hashCode()
+            + setKeyword()
+            + setName()
+            + toString()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.FrameAttribute {
+            - id : int
+            - searchForValue : boolean
+            + getAttribute()
+            + getFrame()
+            + getId()
+            + isSearchForValue()
+            + setAttribute()
+            + setFrame()
+            + setId()
+            + setSearchForValue()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Sentence {
+            + id : int
+            - created : LocalDateTime
+            - sentence : String
+            + getCreated()
+            + getId()
+            + getSentence()
+            + setCreated()
+            + setId()
+            + setSentence()
+            + toString()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Session {
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Spacy {
+            - dependency : String
+            - id : int
+            - idx : long
+            - lemma : String
+            - pos : String
+            - punctuation : boolean
+            - shape : String
+            - space : boolean
+            - tag : String
+            - text : String
+            + getDependency()
+            + getId()
+            + getIdx()
+            + getLemma()
+            + getPos()
+            + getShape()
+            + getTag()
+            + getText()
+            + isPunctuation()
+            + isSpace()
+            + setDependency()
+            + setId()
+            + setIdx()
+            + setLemma()
+            + setPos()
+            + setPunctuation()
+            + setShape()
+            + setSpace()
+            + setTag()
+            + setText()
+            + toString()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.SpacySentence {
+            - spacyList : List<Spacy>
+            + SpacySentence()
+            + addWord()
+            + count()
+            + getAttributes()
+            + getNones()
+            + getRoot()
+            + getSpacyList()
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        class com.upf.nli.analyzer.semantic_analyzer.domain.Template {
+            - id : int
+            - val : String
+            + getAttribute()
+            + getFrame()
+            + getId()
+            + getVal()
+            + setAttribute()
+            + setFrame()
+            + setId()
+            + setVal()
+        }
+      }
+    }
+  }
+  
+
+  com.upf.nli.analyzer.semantic_analyzer.domain.Error o-- com.upf.nli.analyzer.semantic_analyzer.domain.Attribute : attribute
+  com.upf.nli.analyzer.semantic_analyzer.domain.Error o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+  com.upf.nli.analyzer.semantic_analyzer.domain.FrameAttribute o-- com.upf.nli.analyzer.semantic_analyzer.domain.Attribute : attribute
+  com.upf.nli.analyzer.semantic_analyzer.domain.FrameAttribute o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+  com.upf.nli.analyzer.semantic_analyzer.domain.Template o-- com.upf.nli.analyzer.semantic_analyzer.domain.Attribute : attribute
+  com.upf.nli.analyzer.semantic_analyzer.domain.Template o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

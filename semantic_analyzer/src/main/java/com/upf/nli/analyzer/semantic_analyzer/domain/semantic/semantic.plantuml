@@ -1,0 +1,205 @@
+@startuml
+
+title __SEMANTIC's Class Diagram__\n
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        namespace semantic {
+          class com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Course {
+              {static} + COL_CLASSROOM : String
+              {static} + COL_CREDIT : String
+              {static} + COL_END : String
+              {static} + COL_LANG : String
+              {static} + COL_NAME : String
+              {static} + COL_PROGRAMME : String
+              {static} + COL_START : String
+              {static} + COL_SUMMARY : String
+              {static} + COL_SYLLABUS : String
+              {static} + COL_TEACHER : String
+              {static} + COL_TIME : String
+              - classroom : String
+              - classtime : String
+              - credit : int
+              - end : String
+              - id : int
+              - language : String
+              - name : String
+              - start : String
+              - summary : String
+              - syllabus : String
+              + equals()
+              + getClassroom()
+              + getClasstime()
+              + getCredit()
+              + getEnd()
+              + getFrame()
+              + getId()
+              + getLanguage()
+              + getName()
+              + getProgramme()
+              + getStart()
+              + getSummary()
+              + getSyllabus()
+              + getTeacher()
+              + hashCode()
+              + setClassroom()
+              + setClasstime()
+              + setCredit()
+              + setEnd()
+              + setFrame()
+              + setId()
+              + setLanguage()
+              + setName()
+              + setProgramme()
+              + setStart()
+              + setSummary()
+              + setSyllabus()
+              + setTeacher()
+              + toString()
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        namespace semantic {
+          class com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Library {
+              - end : String
+              - id : int
+              - location : String
+              - name : String
+              - services : String
+              - start : String
+              + equals()
+              + getEnd()
+              + getFrame()
+              + getId()
+              + getLocation()
+              + getName()
+              + getServices()
+              + getStart()
+              + hashCode()
+              + setEnd()
+              + setFrame()
+              + setId()
+              + setLocation()
+              + setName()
+              + setServices()
+              + setStart()
+              + toString()
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        namespace semantic {
+          class com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Programme {
+              {static} + COL_CONTENT : String
+              {static} + COL_COURSE : String
+              {static} + COL_DEGREE : String
+              {static} + COL_DIRECTOR : String
+              {static} + COL_DURATION : String
+              {static} + COL_LANG : String
+              {static} + COL_NAME : String
+              {static} + COL_PRICE : String
+              - content : String
+              - courses : List<Course>
+              - degree : String
+              - director : String
+              - duration : int
+              - id : int
+              - language : String
+              - name : String
+              - price : float
+              + equals()
+              + getContent()
+              + getCourses()
+              + getDegree()
+              + getDirector()
+              + getDuration()
+              + getFrame()
+              + getId()
+              + getLanguage()
+              + getName()
+              + getPrice()
+              + hashCode()
+              + setContent()
+              + setCourses()
+              + setDegree()
+              + setDirector()
+              + setDuration()
+              + setFrame()
+              + setId()
+              + setLanguage()
+              + setName()
+              + setPrice()
+              + toString()
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace  {
+    namespace om.upf.nli.analyzer.semantic_analyzer {
+      namespace domain {
+        namespace semantic {
+          class com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Teacher {
+              {static} + COL_COURSE : String
+              {static} + COL_EMAIL : String
+              {static} + COL_LOCATION : String
+              {static} + COL_NAME : String
+              - courses : List<Course>
+              - email : String
+              - id : int
+              - name : String
+              - officeLocation : String
+              + equals()
+              + getCourses()
+              + getEmail()
+              + getFrame()
+              + getId()
+              + getName()
+              + getOfficeLocation()
+              + hashCode()
+              + setCourses()
+              + setEmail()
+              + setFrame()
+              + setId()
+              + setName()
+              + setOfficeLocation()
+              + toString()
+          }
+        }
+      }
+    }
+  }
+  
+
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Course o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Course o-- com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Programme : programme
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Course o-- com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Teacher : teacher
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Library o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Programme o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+  com.upf.nli.analyzer.semantic_analyzer.domain.semantic.Teacher o-- com.upf.nli.analyzer.semantic_analyzer.domain.Frame : frame
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

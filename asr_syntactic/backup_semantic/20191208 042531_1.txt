@@ -1,0 +1,2 @@
+{"text":"which","idx":0,"lemma":"which","is_punct":"False","is_space":"False","shape":"xxxx","pos":"PRON","tag":"WDT","dep":"det"}
+{"text":"services","idx":6,"lemma":"service","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NNS","dep":"ROOT"}

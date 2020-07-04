@@ -1,0 +1,9 @@
+{"text":"who","idx":0,"lemma":"who","is_punct":"False","is_space":"False","shape":"xxx","pos":"PRON","tag":"WP","dep":"attr"}
+{"text":"is","idx":4,"lemma":"be","is_punct":"False","is_space":"False","shape":"xx","pos":"AUX","tag":"VBZ","dep":"ROOT"}
+{"text":"the","idx":7,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"teacher","idx":11,"lemma":"teacher","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"attr"}
+{"text":"of","idx":19,"lemma":"of","is_punct":"False","is_space":"False","shape":"xx","pos":"ADP","tag":"IN","dep":"prep"}
+{"text":"the","idx":22,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"machine","idx":26,"lemma":"machine","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"learning","idx":34,"lemma":"learn","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBG","dep":"compound"}
+{"text":"course","idx":43,"lemma":"course","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"pobj"}

@@ -1,0 +1,5 @@
+{"text":"where","idx":0,"lemma":"where","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADV","tag":"WRB","dep":"advmod"}
+{"text":"the","idx":6,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"library","idx":10,"lemma":"library","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"nsubjpass"}
+{"text":"is","idx":18,"lemma":"be","is_punct":"False","is_space":"False","shape":"xx","pos":"AUX","tag":"VBZ","dep":"auxpass"}
+{"text":"located","idx":21,"lemma":"locate","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBN","dep":"ROOT"}

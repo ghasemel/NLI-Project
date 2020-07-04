@@ -1,0 +1,12 @@
+{"text":"which","idx":0,"lemma":"which","is_punct":"False","is_space":"False","shape":"xxxx","pos":"PRON","tag":"WDT","dep":"nsubj"}
+{"text":"is","idx":6,"lemma":"be","is_punct":"False","is_space":"False","shape":"xx","pos":"AUX","tag":"VBZ","dep":"ROOT"}
+{"text":"the","idx":9,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"name","idx":13,"lemma":"name","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"attr"}
+{"text":"of","idx":18,"lemma":"of","is_punct":"False","is_space":"False","shape":"xx","pos":"ADP","tag":"IN","dep":"prep"}
+{"text":"the","idx":21,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"teacher","idx":25,"lemma":"teacher","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"pobj"}
+{"text":"of","idx":33,"lemma":"of","is_punct":"False","is_space":"False","shape":"xx","pos":"ADP","tag":"IN","dep":"prep"}
+{"text":"natural","idx":36,"lemma":"natural","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADJ","tag":"JJ","dep":"amod"}
+{"text":"language","idx":44,"lemma":"language","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"interaction","idx":53,"lemma":"interaction","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"course","idx":65,"lemma":"course","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"pobj"}

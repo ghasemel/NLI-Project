@@ -1,0 +1,4 @@
+{"text":"when","idx":0,"lemma":"when","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADV","tag":"WRB","dep":"advmod"}
+{"text":"computational","idx":5,"lemma":"computational","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADJ","tag":"JJ","dep":"amod"}
+{"text":"semantics","idx":19,"lemma":"semantic","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NNS","dep":"compound"}
+{"text":"course","idx":29,"lemma":"course","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"ROOT"}

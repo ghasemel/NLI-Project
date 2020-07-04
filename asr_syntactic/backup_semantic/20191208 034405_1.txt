@@ -1,0 +1,3 @@
+{"text":"when","idx":0,"lemma":"when","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADV","tag":"WRB","dep":"advmod"}
+{"text":"it","idx":5,"lemma":"-PRON-","is_punct":"False","is_space":"False","shape":"xx","pos":"PRON","tag":"PRP","dep":"nsubj"}
+{"text":"ends","idx":8,"lemma":"end","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBZ","dep":"ROOT"}

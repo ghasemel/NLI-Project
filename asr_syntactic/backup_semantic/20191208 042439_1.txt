@@ -1,0 +1,2 @@
+{"text":"when","idx":0,"lemma":"when","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADV","tag":"WRB","dep":"advmod"}
+{"text":"closes","idx":5,"lemma":"close","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBZ","dep":"ROOT"}

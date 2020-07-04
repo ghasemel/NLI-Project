@@ -1,0 +1,6 @@
+{"text":"when","idx":0,"lemma":"when","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADV","tag":"WRB","dep":"advmod"}
+{"text":"the","idx":5,"lemma":"the","is_punct":"False","is_space":"False","shape":"xxx","pos":"DET","tag":"DT","dep":"det"}
+{"text":"machine","idx":9,"lemma":"machine","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"learning","idx":17,"lemma":"learn","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBG","dep":"compound"}
+{"text":"course","idx":26,"lemma":"course","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"nsubj"}
+{"text":"starts","idx":33,"lemma":"start","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBZ","dep":"ROOT"}

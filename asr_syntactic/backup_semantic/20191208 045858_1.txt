@@ -1,0 +1,6 @@
+{"text":"who","idx":0,"lemma":"who","is_punct":"False","is_space":"False","shape":"xxx","pos":"PRON","tag":"WP","dep":"nsubj"}
+{"text":"teaches","idx":4,"lemma":"teach","is_punct":"False","is_space":"False","shape":"xxxx","pos":"VERB","tag":"VBZ","dep":"ROOT"}
+{"text":"natural","idx":12,"lemma":"natural","is_punct":"False","is_space":"False","shape":"xxxx","pos":"ADJ","tag":"JJ","dep":"amod"}
+{"text":"language","idx":20,"lemma":"language","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"interaction","idx":29,"lemma":"interaction","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"compound"}
+{"text":"course","idx":41,"lemma":"course","is_punct":"False","is_space":"False","shape":"xxxx","pos":"NOUN","tag":"NN","dep":"dobj"}
