@@ -1,0 +1,7 @@
+# Implementation of a Natural Language Interaction (NLI) System as University Assistant
+
+In the project we have 4 seperate modules:
+1. ASR (Automatic speech recognition), we use python and google ASR for this module. the output of this module is a text which is saved in a file.
+2. Syntactic Parsing: it's been implemented in python using spacy framework. the output is a POS tagging of input sentence in json format
+3. Semantic Analysis & Dialogue Management & Natural Language Generation: for these parts we used java as the programming language and MySQL as the data store. we tried to have a flexible data model to be able to answer different type of questions from the user. actually we tried to simulate the real relations between entities in the university in database level. at first step using a given sentence, we try to find the corresponding semantic frame. after identifing the semantic frame we try to find extra information about that and also what's the user asking for. we do this using the POS taggs provided in semantic parsing step. once the semantic frame is detected, we try to find user intent and forasmuch as we have a extendable template for answering the questions we try to find a suitable template and filling the missed part of it. using this we save the result as the response to the user in a file.
+4. Speech synthesis (TTS): for this part we are using python and tacotron framework. we provide the output of last step in a file to this module.
